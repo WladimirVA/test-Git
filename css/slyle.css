@@ -1,0 +1,79 @@
+/* @font-face {
+    font-family:"OpenSans Italic VariableFont_wdth,wght";
+    src: url('../fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf');
+    }
+@font-face {
+    font-family:"OpenSans VariableFont_wdth,wght,wght";
+    src: url('../fonts/OpenSans-VariableFont_wdth,wght.ttf');
+} */
+/* body {
+    font-family:'OpenSans Italic VariableFont_wdth,wght';
+    font-family:'OpenSans VariableFont_wdth,wght,wght';
+} */
+html {
+    margin: 70px;
+    background-color: rgb(218, 245, 176);
+}
+.history{
+	text-align: center;
+    font-family: serif;
+	margin: 20px;
+    border: 20px;
+}
+h1{
+    font:normal 170% 'century gothic', arial;
+    margin: 20px;
+    text-align: center;
+    font-family: serif;
+
+}
+h2 {
+    font:normal 120% 'century gothic', arial;
+    font-family: serif;
+    font-weight: bold;
+}
+a {
+    font-family: serif;
+    color: darkcyan;
+    font-size: 18px;
+    text-decoration: none;
+}
+a:hover {
+    color: deepskyblue;
+}
+.main {
+    display: flex;
+}
+.biography {
+    display: row-reverse;
+}
+.subtitle {
+    border-left: 5px solid deepskyblue;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+.contacts-item {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin: 0 5% 0 0;
+    padding: 2%;
+}
+.contacts-icon {
+    margin-right: 10px;
+}
+p>img {
+    padding: 0px;
+
+}
+img {
+    border-radius: 20%;
+    padding: 20px;
+ }
+ p {
+    font-family: sans-serif;
+ }
+ footer {
+     text-align: center;
+ }
+ 
