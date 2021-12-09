@@ -1,15 +1,3 @@
-/* @font-face {
-    font-family:"OpenSans Italic VariableFont_wdth,wght";
-    src: url('../fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf');
-    }
-@font-face {
-    font-family:"OpenSans VariableFont_wdth,wght,wght";
-    src: url('../fonts/OpenSans-VariableFont_wdth,wght.ttf');
-} */
-/* body {
-    font-family:'OpenSans Italic VariableFont_wdth,wght';
-    font-family:'OpenSans VariableFont_wdth,wght,wght';
-} */
 html {
     margin: 70px;
     background-color: rgb(218, 245, 176);
@@ -76,4 +64,53 @@ img {
  footer {
      text-align: center;
  }
+ .contacts-item-footer {
+     display: none;
+ }
  
+ @media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px) {
+
+    .main {
+        display: table-row-group;
+    }
+    .history {
+        font-size: 190%;
+    }
+    h1{
+        font-weight: bold;
+        
+        font-size: 60px;
+        margin: 20px;
+        text-align: center;
+        font-family: serif;
+    
+    }
+    h2 {
+        font:normal 120% 'century gothic', arial;
+        font-family: serif;
+        font-weight: bold;
+    }
+    a {
+        font-size: 100%;
+    }
+    .faise>img {
+        width: 100%;
+        height: 100%;
+    }
+    .footer>a, span {
+        display: none;
+    }
+    
+    .contacts-item-footer {
+        display: block;
+        text-align: left;
+        align-items: center;
+        font-size: 230%;
+    }
+    .contacts-item {
+        display: none;
+    }
+
+}
